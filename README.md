@@ -1,6 +1,3 @@
-# CloudAnchorSwiftSampler
-ARCore Cloud Anchors original sample written in swift.
-
 # About
 Because [The Official sample](https://github.com/google-ar/arcore-ios-sdk) is written in objc, I have made swift original sample.
 
