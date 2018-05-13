@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CECB3F45594D82B73ACE64F /* Pods_CloudAnchorSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9407E462033AA2B4C99AD0D3 /* Pods_CloudAnchorSwift.framework */; };
 		284E60EC20A6F489004E4E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E60EB20A6F489004E4E64 /* AppDelegate.swift */; };
 		284E60EE20A6F489004E4E64 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 284E60ED20A6F489004E4E64 /* art.scnassets */; };
 		284E60F020A6F489004E4E64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E60EF20A6F489004E4E64 /* ViewController.swift */; };
 		284E60F320A6F489004E4E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284E60F120A6F489004E4E64 /* Main.storyboard */; };
 		284E60F520A6F489004E4E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284E60F420A6F489004E4E64 /* Assets.xcassets */; };
 		284E60F820A6F489004E4E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284E60F620A6F489004E4E64 /* LaunchScreen.storyboard */; };
+		284E610220A85972004E4E64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 284E610120A85972004E4E64 /* GoogleService-Info.plist */; };
+		284E610420A8599D004E4E64 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E610320A8599D004E4E64 /* Const.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,11 @@
 		284E60F420A6F489004E4E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		284E60F720A6F489004E4E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		284E60F920A6F489004E4E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284E610120A85972004E4E64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		284E610320A8599D004E4E64 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		59D2D7B1D9AD4CF216EA9A1B /* Pods-CloudAnchorSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudAnchorSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudAnchorSwift/Pods-CloudAnchorSwift.release.xcconfig"; sourceTree = "<group>"; };
+		65964C0066FDE4714A1699B6 /* Pods-CloudAnchorSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudAnchorSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudAnchorSwift/Pods-CloudAnchorSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		9407E462033AA2B4C99AD0D3 /* Pods_CloudAnchorSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudAnchorSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CECB3F45594D82B73ACE64F /* Pods_CloudAnchorSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				284E60EA20A6F489004E4E64 /* CloudAnchorSwift */,
 				284E60E920A6F489004E4E64 /* Products */,
+				53AFDD757745DFDD5463C3EF /* Pods */,
+				A50D3767460E356831C8D3F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +74,27 @@
 				284E60F420A6F489004E4E64 /* Assets.xcassets */,
 				284E60F620A6F489004E4E64 /* LaunchScreen.storyboard */,
 				284E60F920A6F489004E4E64 /* Info.plist */,
+				284E610120A85972004E4E64 /* GoogleService-Info.plist */,
+				284E610320A8599D004E4E64 /* Const.swift */,
 			);
 			path = CloudAnchorSwift;
+			sourceTree = "<group>";
+		};
+		53AFDD757745DFDD5463C3EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65964C0066FDE4714A1699B6 /* Pods-CloudAnchorSwift.debug.xcconfig */,
+				59D2D7B1D9AD4CF216EA9A1B /* Pods-CloudAnchorSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A50D3767460E356831C8D3F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9407E462033AA2B4C99AD0D3 /* Pods_CloudAnchorSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 284E60FC20A6F489004E4E64 /* Build configuration list for PBXNativeTarget "CloudAnchorSwift" */;
 			buildPhases = (
+				9B52FE2741663C5B34F5FB7D /* [CP] Check Pods Manifest.lock */,
 				284E60E420A6F489004E4E64 /* Sources */,
 				284E60E520A6F489004E4E64 /* Frameworks */,
 				284E60E620A6F489004E4E64 /* Resources */,
+				31D37F1E1A3381371DA20BF3 /* [CP] Embed Pods Frameworks */,
+				F38C178945BAEA01721DC160 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,12 +160,76 @@
 			files = (
 				284E60EE20A6F489004E4E64 /* art.scnassets in Resources */,
 				284E60F820A6F489004E4E64 /* LaunchScreen.storyboard in Resources */,
+				284E610220A85972004E4E64 /* GoogleService-Info.plist in Resources */,
 				284E60F520A6F489004E4E64 /* Assets.xcassets in Resources */,
 				284E60F320A6F489004E4E64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31D37F1E1A3381371DA20BF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CloudAnchorSwift/Pods-CloudAnchorSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudAnchorSwift/Pods-CloudAnchorSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B52FE2741663C5B34F5FB7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudAnchorSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F38C178945BAEA01721DC160 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CloudAnchorSwift/Pods-CloudAnchorSwift-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ARCore/ARCoreResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ARCoreResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudAnchorSwift/Pods-CloudAnchorSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		284E60E420A6F489004E4E64 /* Sources */ = {
@@ -141,6 +238,7 @@
 			files = (
 				284E60F020A6F489004E4E64 /* ViewController.swift in Sources */,
 				284E60EC20A6F489004E4E64 /* AppDelegate.swift in Sources */,
+				284E610420A8599D004E4E64 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +380,7 @@
 		};
 		284E60FD20A6F489004E4E64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65964C0066FDE4714A1699B6 /* Pods-CloudAnchorSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,7 +390,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.kboy.CloudAnchorSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.silver-gym.CloudAnchorSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,6 +399,7 @@
 		};
 		284E60FE20A6F489004E4E64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59D2D7B1D9AD4CF216EA9A1B /* Pods-CloudAnchorSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,7 +409,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.kboy.CloudAnchorSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.silver-gym.CloudAnchorSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
