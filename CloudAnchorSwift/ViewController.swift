@@ -62,6 +62,7 @@ class ViewController: UIViewController {
             addAnchor(transform: result.worldTransform)
         }
     }
+    
     @IBAction func fetchButtonTapped(_ sender: Any) {
         resolveAnchors()
     }
