@@ -3,6 +3,10 @@ Because [The official sample](https://github.com/google-ar/arcore-ios-sdk) is wr
 
 This sample focuses to make you understand How `Cloud Anchors` work, so I have written the minimum required codes.
 
+|Send|Receive|
+|:--:|:--:|
+|![gif image-b938c504d902-1](https://user-images.githubusercontent.com/17683316/39974373-1fc231e8-5763-11e8-8447-dc7dc0bc476c.gif)|![gif image-8d03c122cec6-1](https://user-images.githubusercontent.com/17683316/39974388-3d445c14-5763-11e8-9bc3-8227ffd851d6.gif)|
+
 # Usage
 
 ### 1. Add `GoogleService-Info.plist` into your project
