@@ -11,13 +11,13 @@ This sample focuses to make you understand How `Cloud Anchors` work, so I have w
 
 ### 1. Add `GoogleService-Info.plist` into your project
 
-Make firebase project and follow the below document.
+Make firebase project and follow below the document.
 
 https://firebase.google.com/docs/ios/setup
 
 ### 2. Put API_KEY into `Const.apiKey`
 
-You can find API_KEY in firebase console setting.
+You can find API_KEY in firebase console setting. Get that and put into the `Const.swift`'s apiKey property.
 
 # Reference
 - https://github.com/google-ar/arcore-ios-sdk
